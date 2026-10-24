@@ -451,23 +451,34 @@ export function PhonePair() {
   const nav = useNavigate()
   const [typed, setTyped] = useState(code)
   const [err, setErr] = useState<string | null>(null)
+  const [liveHash, setLiveHash] = useState<string | undefined>()
   // Scanning a new QR in the same tab only changes the hash: follow the code in the link,
   // otherwise the code typed or scanned earlier would be submitted.
   useEffect(() => { if (code) { setTyped(code.toUpperCase()); setErr(null) } }, [code])
-  const laptopHash = useBackend((b) => (b.status === 'up' ? b.health?.pairingHash : undefined))
+  const polledHash = useBackend((b) => (b.status === 'up' ? b.health?.pairingHash : undefined))
+  // Do not wait for the background 5-second poll when a QR is being submitted.
+  // A direct health read makes stale-QR feedback deterministic after opening the link.
+  useEffect(() => {
+    let alive = true
+    void api<{ pairingHash?: string }>('/health').then((h) => { if (alive) setLiveHash(h.pairingHash) }).catch(() => {})
+    return () => { alive = false }
+  }, [])
+  const laptopHash = liveHash ?? polledHash
   const ok = /^[A-Z2-9]{8}$/.test(typed)
-  const pair = () => {
+  const pair = async () => {
     // When the laptop is reachable, only its current code is accepted (it publishes a hash of
     // it). Offline, any code is accepted and checked again once the laptop is reachable.
-    if (laptopHash && sha256Hex(typed).slice(0, 8) !== laptopHash) {
+    let currentHash = laptopHash
+    if (!currentHash) currentHash = await api<{ pairingHash?: string }>('/health').then((h) => h.pairingHash).catch(() => undefined)
+    if (currentHash && sha256Hex(typed).slice(0, 8) !== currentHash) {
       setErr('That is not the laptop’s current code. The QR or code you used is old: open Phone / Edge on the laptop and scan the QR shown there now.')
-      clientLog('pairing refused: stale code', { phoneHash: sha256Hex(typed).slice(0, 8), laptopHash })
+      clientLog('pairing refused: stale code', { phoneHash: sha256Hex(typed).slice(0, 8), laptopHash: currentHash })
       return
     }
     set({ pairingCode: typed, paired: { name: 'Laptop', at: Date.now() } })
-    log('phone paired', { method: code ? 'qr' : 'code', verified: !!laptopHash })
-    clientLog('phone paired', { verified: !!laptopHash })
-    toast(laptopHash ? 'Paired and verified with the laptop.' : 'Paired (will be checked when the laptop is reachable).')
+    log('phone paired', { method: code ? 'qr' : 'code', verified: !!currentHash })
+    clientLog('phone paired', { verified: !!currentHash })
+    toast(currentHash ? 'Paired and verified with the laptop.' : 'Paired (will be checked when the laptop is reachable).')
     nav('/m')
   }
   return (

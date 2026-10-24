@@ -6,7 +6,7 @@ import { previewHeaders } from '../../engine/ingest'
 import { analyzeUtilization, detectUMapping } from '../../engine/utilization'
 import { RESIDUAL_PCT } from '../../engine/inject'
 import { newPairingCode } from '../../engine/approval'
-import { randomHex } from '../../engine/hash'
+import { randomHex, sha256Hex } from '../../engine/hash'
 import { DEFAULT_DETECT } from '../../engine/detect'
 import { Badge, Button, Honest, PageHeader, Panel, Segmented, toast } from '../../components/ui'
 import { PhoneLink } from '../../components/PhoneLink'
@@ -149,21 +149,37 @@ export function useOnline() {
 /** G3 Phone / Edge. */
 export function Edge() {
   const s = useStore()
+  const backend = useBackend()
   const online = useOnline()
+  const [rotating, setRotating] = useState(false)
+  // The API owns the pairing code. Never expose a persisted/browser-only code in
+  // the QR: another tab or a laptop restart may have already changed the API code.
+  const codeMatchesApi = backend.status !== 'up' || !backend.health || backend.health.pairingHash === sha256Hex(s.pairingCode).slice(0, 8)
+  const showPairing = !rotating && codeMatchesApi
   return (
     <div className="space-y-5">
       <PageHeader eyebrow={<span className="flex items-center gap-2">Phone / Edge <Honest k="edge" /></span>} title={s.paired ? 'Phone paired' : 'Pair a phone as your approver'} sub="The phone holds the same signing key (derived from the pairing code). Only the signed approval moves between devices." />
       <BackendPanel focus="edge" />
       <div className="grid gap-5 lg:grid-cols-[auto_1fr]">
         <Panel title="Pair">
-          <PhoneLink route={`/m/pair/${s.pairingCode}`} size={200} title="Scan with the phone camera to pair" />
-          <div className="mt-4 text-center text-[12px] text-muted">Pairing code (type it on the phone if the link won't open)</div>
-          <div className="num mt-1 text-center font-mono text-[24px] font-bold tracking-[0.2em]">{s.pairingCode}</div>
+          {showPairing ? <>
+            <PhoneLink route={`/m/pair/${s.pairingCode}`} size={200} title="Scan with the phone camera to pair" />
+            <div className="mt-4 text-center text-[12px] text-muted">Pairing code (type it on the phone if the link won't open)</div>
+            <div className="num mt-1 text-center font-mono text-[24px] font-bold tracking-[0.2em]">{s.pairingCode}</div>
+          </> : <div className="grid h-[260px] place-items-center rounded-xl border border-dashed border-line p-5 text-center text-[13px] text-muted">{rotating ? 'Generating a new pairing code…' : 'Refreshing the current pairing code from the laptop…'}</div>}
           <div className="mt-3 flex justify-center gap-2">
-            <Button size="sm" variant="ghost" onClick={() => {
+            <Button size="sm" variant="ghost" disabled={rotating} onClick={async () => {
               const prev = s.pairingCode, code = newPairingCode()
-              s.set({ pairingCode: code, paired: null }); s.log('pairing code changed', {})
-              if (useBackend.getState().status === 'up') void api('/pairing', { json: { code, rotate: true } })
+              setRotating(true)
+              try {
+                if (useBackend.getState().status === 'up') await api('/pairing', { json: { code, rotate: true } })
+                s.set({ pairingCode: code, paired: null }); s.log('pairing code changed', {})
+              } catch {
+                setRotating(false)
+                toast('Could not update the laptop pairing code. Try again.')
+                return
+              }
+              setRotating(false)
               toast('New pairing code. Pair the phone again.', () => { useStore.getState().set({ pairingCode: prev }); if (useBackend.getState().status === 'up') void api('/pairing', { json: { code: prev, rotate: true } }) })
             }}><RefreshCw size={14} /> New code</Button>
             {!s.paired && <Button size="sm" onClick={() => { s.set({ paired: { name: 'Phone', at: Date.now() } }); s.log('phone paired', {}) }}><Smartphone size={14} /> Phone shows “Paired”</Button>}
