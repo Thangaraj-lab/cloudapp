@@ -221,7 +221,11 @@ function Run({ s }: { s: Subject }) {
   const nav = useNavigate()
   const e = entryFor(s.id)
   const backend = useBackend()
-  const remoteCapable = backend.status === 'up' && s.kind === 'case' && s.analyzed?.finding.scope !== 'service' && s.analyzed?.finding.kind !== 'steady'
+  // Injected demo findings live only in the browser analysis. They are not in
+  // the backend dataset, so sending them to /api/actions would produce
+  // "Unknown finding". Keep those scenarios on the deterministic simulator;
+  // imported findings can still execute against the local cloud.
+  const remoteCapable = backend.status === 'up' && s.kind === 'case' && !s.injected && s.analyzed?.finding.scope !== 'service' && s.analyzed?.finding.kind !== 'steady'
   const [failAt, setFailAt] = useState(0)
   const [events, setEvents] = useState<{ step: number; label: string; status: string; at: string; detail?: string }[]>([])
   const [cur, setCur] = useState(-1)
