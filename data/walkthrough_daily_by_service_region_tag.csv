@@ -1,0 +1,467 @@
+day,service,region,environment,application,billed_cost_usd
+2024-09-01,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-01,Amazon Elastic Compute Cloud,us-east-1,dev,OptiLogicInfinity,0.0022
+2024-09-01,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0001
+2024-09-01,Amazon Elastic Compute Cloud,us-east-1,prod,HyperMindEngine,0.0056
+2024-09-01,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-01,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-01,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0022
+2024-09-01,AmazonCloudWatch,us-east-1,prod,ZoomMapMax,0.0019
+2024-09-01,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-02,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-02,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-02,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-02,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-02,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-02,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-02,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0
+2024-09-02,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0366
+2024-09-02,Elastic Load Balancing,us-east-1,prod,SmartBridgeProX,0.025
+2024-09-03,AWS Key Management Service,us-east-1,prod,InsightBuilderEngine,0.0014
+2024-09-03,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.4502
+2024-09-03,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-03,AWS Lambda,us-east-1,untagged,untagged,0.0
+2024-09-03,AWS Secrets Manager,us-east-1,untagged,untagged,0.0001
+2024-09-03,AWS Systems Manager,us-east-1,untagged,untagged,0.0
+2024-09-03,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-03,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,0.7041
+2024-09-03,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-03,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-03,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0001
+2024-09-03,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-03,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-03,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.0744
+2024-09-03,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.005
+2024-09-03,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-04,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-04,AWS Secrets Manager,us-east-1,untagged,untagged,0.0001
+2024-09-04,AWS Systems Manager,us-east-1,untagged,untagged,0.0
+2024-09-04,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,1.8489
+2024-09-04,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.045
+2024-09-04,Amazon Elastic Compute Cloud,us-east-1,prod,ClearPrimeLogic,0.0011
+2024-09-04,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-04,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.045
+2024-09-04,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.0797
+2024-09-04,Amazon Simple Storage Service,us-east-1,prod,TechScopeCloud,0.0
+2024-09-04,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.0198
+2024-09-04,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0836
+2024-09-04,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-04,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-05,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0
+2024-09-05,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-05,AWS Lambda,us-east-1,prod,ZoomMapMax,0.0
+2024-09-05,AWS Systems Manager,us-east-1,untagged,untagged,0.0
+2024-09-05,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,6.2499
+2024-09-05,Amazon Elastic Compute Cloud,us-east-1,dev,OptiLogicInfinity,0.0022
+2024-09-05,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-05,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.045
+2024-09-05,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-05,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.1041
+2024-09-05,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0012
+2024-09-05,Amazon Simple Storage Service,us-east-1,prod,TechScopeCloud,0.0
+2024-09-05,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.0248
+2024-09-05,AmazonCloudWatch,us-east-1,untagged,untagged,0.1514
+2024-09-05,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-06,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0001
+2024-09-06,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.005
+2024-09-06,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0001
+2024-09-06,AWS Lambda,us-east-1,prod,ZoomMapMax,0.45
+2024-09-06,AWS Secrets Manager,us-east-1,untagged,untagged,0.0017
+2024-09-06,AWS Systems Manager,us-east-1,untagged,untagged,0.0001
+2024-09-06,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,4.542
+2024-09-06,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-06,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-06,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-06,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-06,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-06,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.0389
+2024-09-06,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0018
+2024-09-06,Amazon Virtual Private Cloud,us-east-1,dev,BrightMatrixInsight,0.005
+2024-09-06,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.012
+2024-09-06,AmazonCloudWatch,us-east-1,prod,ZoomMapMax,0.0012
+2024-09-07,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0002
+2024-09-07,AWS Lambda,us-east-1,prod,ZoomMapMax,0.0002
+2024-09-07,AWS Systems Manager,us-east-1,untagged,untagged,0.0
+2024-09-07,Amazon API Gateway,us-east-1,dev,SyncClarityPlus,0.0003
+2024-09-07,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,0.6685
+2024-09-07,Amazon Elastic Compute Cloud,us-east-1,dev,LeadRingGo,0.0003
+2024-09-07,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-07,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-07,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-07,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.0533
+2024-09-07,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.0053
+2024-09-07,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-08,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-08,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-08,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-08,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-08,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-08,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-08,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0001
+2024-09-08,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.005
+2024-09-08,Elastic Load Balancing,us-east-1,prod,SmartBridgeProX,0.025
+2024-09-09,AWS Key Management Service,us-east-1,prod,InsightBuilderEngine,0.0014
+2024-09-09,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0001
+2024-09-09,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0021
+2024-09-09,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-09,AWS Lambda,us-east-1,prod,ZoomMapMax,0.0063
+2024-09-09,AWS Secrets Manager,us-east-1,untagged,untagged,0.0017
+2024-09-09,AWS Systems Manager,us-east-1,untagged,untagged,0.0
+2024-09-09,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,13.6996
+2024-09-09,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-09,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-09,Amazon Elastic Compute Cloud,us-east-1,prod,AlphaStoreProX,0.0003
+2024-09-09,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0003
+2024-09-09,Amazon Elastic Compute Cloud,us-east-1,prod,PureSuitePulse,0.0167
+2024-09-09,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.0156
+2024-09-09,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-09,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0
+2024-09-09,Amazon Virtual Private Cloud,us-east-1,dev,BrightMatrixInsight,0.005
+2024-09-09,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.0146
+2024-09-09,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0023
+2024-09-09,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-10,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-10,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-10,AWS Lambda,us-east-1,prod,ZoomMapMax,0.45
+2024-09-10,AWS Secrets Manager,us-east-1,untagged,untagged,0.0
+2024-09-10,AWS Systems Manager,us-east-1,untagged,untagged,0.0001
+2024-09-10,Amazon API Gateway,us-east-1,dev,SyncClarityPlus,0.0005
+2024-09-10,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,9.9562
+2024-09-10,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-10,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-10,Amazon Elastic Compute Cloud,us-east-1,dev,UnifiedPortalPort,0.0011
+2024-09-10,Amazon Elastic Compute Cloud,us-east-1,prod,GenVerseLite,0.0
+2024-09-10,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-10,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-10,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.0766
+2024-09-10,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.0153
+2024-09-10,AmazonCloudWatch,global,untagged,untagged,0.0125
+2024-09-10,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-11,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0
+2024-09-11,AWS Lambda,us-east-1,prod,ZoomMapMax,0.0
+2024-09-11,AWS Systems Manager,us-east-1,untagged,untagged,0.0035
+2024-09-11,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,18.0305
+2024-09-11,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-11,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-11,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-11,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-11,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-11,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.3665
+2024-09-11,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-11,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0027
+2024-09-11,Amazon Simple Storage Service,us-east-1,prod,TechScopeCloud,0.0
+2024-09-11,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.0641
+2024-09-11,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-12,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0
+2024-09-12,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-12,AWS Systems Manager,us-east-1,untagged,untagged,0.0002
+2024-09-12,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,50.2298
+2024-09-12,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-12,Amazon Elastic Compute Cloud,us-east-1,prod,OptiSphereSphere,0.0014
+2024-09-12,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-12,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-12,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.8734
+2024-09-12,Amazon Elastic Compute Cloud,us-east-1,untagged,untagged,0.0837
+2024-09-12,Amazon Simple Storage Service,us-east-1,dev,EvolveGridPlus,0.0
+2024-09-12,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.2469
+2024-09-12,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0549
+2024-09-12,AmazonCloudWatch,us-east-1,untagged,untagged,0.0887
+2024-09-12,Elastic Load Balancing,us-east-1,prod,SmartBridgeProX,0.025
+2024-09-13,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0004
+2024-09-13,AWS Lambda,us-east-1,untagged,untagged,0.0
+2024-09-13,AWS Systems Manager,us-east-1,untagged,untagged,0.0005
+2024-09-13,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-13,Amazon ElastiCache,us-east-1,dev,ActiveRingEngine,0.156
+2024-09-13,Amazon Elastic Compute Cloud,us-east-1,dev,ActiveOptimizerFlow,0.0056
+2024-09-13,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,39.6574
+2024-09-13,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-13,Amazon Elastic Compute Cloud,us-east-1,dev,OptiLogicInfinity,0.0022
+2024-09-13,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-13,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.045
+2024-09-13,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-13,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-13,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.9245
+2024-09-13,Amazon Simple Storage Service,us-east-1,dev,EvolveGridPlus,0.0
+2024-09-13,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.1835
+2024-09-13,AmazonCloudWatch,us-east-1,prod,ZoomMapMax,0.0081
+2024-09-13,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-13,Elastic Load Balancing,us-east-1,prod,SmartBridgeProX,0.0
+2024-09-14,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-14,AWS Systems Manager,us-east-1,untagged,untagged,0.0004
+2024-09-14,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,49.5326
+2024-09-14,Amazon Elastic Compute Cloud,us-east-1,prod,KeySyncGo,0.0056
+2024-09-14,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-14,Amazon Elastic Compute Cloud,us-east-1,prod,PureSuitePulse,0.0167
+2024-09-14,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-14,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.8069
+2024-09-14,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0002
+2024-09-14,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0
+2024-09-14,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.1291
+2024-09-14,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0007
+2024-09-14,AmazonCloudWatch,us-east-1,untagged,untagged,0.3198
+2024-09-14,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-14,Elastic Load Balancing,us-east-1,prod,SmartBridgeProX,0.025
+2024-09-15,AWS Systems Manager,us-east-1,untagged,untagged,0.0069
+2024-09-15,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-15,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,34.9848
+2024-09-15,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-15,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-15,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-15,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-15,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.6111
+2024-09-15,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-15,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0
+2024-09-15,Amazon Virtual Private Cloud,us-east-1,dev,BrightMatrixInsight,0.005
+2024-09-15,Amazon Virtual Private Cloud,us-east-1,dev,OptiAccessVision,0.005
+2024-09-15,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.1483
+2024-09-15,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0003
+2024-09-16,AWS Key Management Service,us-east-1,untagged,untagged,0.001
+2024-09-16,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-16,AWS Lambda,us-east-1,prod,ZoomMapMax,0.0
+2024-09-16,AWS Secrets Manager,us-east-1,untagged,untagged,0.0001
+2024-09-16,AWS Systems Manager,us-east-1,untagged,untagged,0.0003
+2024-09-16,Amazon ElastiCache,us-east-1,dev,ActiveRingEngine,0.156
+2024-09-16,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,62.3464
+2024-09-16,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-16,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-16,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-16,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-16,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-16,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,1.0562
+2024-09-16,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-16,Amazon Simple Storage Service,us-east-1,dev,EvolveGridPlus,0.0019
+2024-09-16,Amazon Simple Storage Service,us-east-1,prod,TechScopeCloud,0.0
+2024-09-16,Amazon Virtual Private Cloud,us-east-1,dev,BrightMatrixInsight,0.005
+2024-09-16,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.1973
+2024-09-16,AmazonCloudWatch,global,untagged,untagged,0.0125
+2024-09-16,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-17,AWS Key Management Service,us-east-1,untagged,untagged,0.0003
+2024-09-17,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0001
+2024-09-17,AWS Systems Manager,us-east-1,untagged,untagged,0.0003
+2024-09-17,Amazon API Gateway,us-east-1,dev,PureGeniusPilot,0.0121
+2024-09-17,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,44.6427
+2024-09-17,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-17,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-17,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-17,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,1.0994
+2024-09-17,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-17,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.215
+2024-09-17,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-17,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.025
+2024-09-18,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.45
+2024-09-18,AWS Lambda,us-east-1,prod,ZoomMapMax,0.0046
+2024-09-18,AWS Lambda,us-east-1,untagged,untagged,0.0
+2024-09-18,AWS Systems Manager,us-east-1,untagged,untagged,0.0004
+2024-09-18,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-18,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,83.1752
+2024-09-18,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-18,Amazon Elastic Compute Cloud,us-east-1,dev,OptiLogicInfinity,0.0022
+2024-09-18,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.045
+2024-09-18,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-18,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-18,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.999
+2024-09-18,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-18,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0001
+2024-09-18,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.2337
+2024-09-18,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-18,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-18,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.025
+2024-09-19,AWS Key Management Service,us-east-1,prod,InsightBuilderEngine,0.0014
+2024-09-19,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.45
+2024-09-19,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0003
+2024-09-19,AWS Secrets Manager,us-east-1,untagged,untagged,0.0017
+2024-09-19,AWS Systems Manager,us-east-1,untagged,untagged,0.0002
+2024-09-19,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,64.2085
+2024-09-19,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-19,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0002
+2024-09-19,Amazon Elastic Compute Cloud,us-east-1,dev,UnifiedPortalPort,0.0011
+2024-09-19,Amazon Elastic Compute Cloud,us-east-1,prod,GenVerseLite,0.34
+2024-09-19,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0019
+2024-09-19,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-19,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-19,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.7889
+2024-09-19,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-19,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.2485
+2024-09-20,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0002
+2024-09-20,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-20,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-20,AWS Lambda,us-east-1,prod,ZoomMapMax,0.0002
+2024-09-20,AWS Secrets Manager,us-east-1,untagged,untagged,0.0017
+2024-09-20,AWS Systems Manager,us-east-1,untagged,untagged,0.0003
+2024-09-20,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-20,Amazon ElastiCache,us-east-1,dev,ActiveRingEngine,0.156
+2024-09-20,Amazon ElastiCache,us-east-1,dev,SafeGuideVault,0.156
+2024-09-20,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,63.1297
+2024-09-20,Amazon Elastic Compute Cloud,us-east-1,dev,LeadRingGo,0.0003
+2024-09-20,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.045
+2024-09-20,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.045
+2024-09-20,Amazon Elastic Compute Cloud,us-east-1,prod,PureSuitePulse,0.0167
+2024-09-20,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-20,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,1.0676
+2024-09-20,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.1651
+2024-09-20,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0001
+2024-09-20,Elastic Load Balancing,us-east-1,prod,SmartBridgeProX,0.0
+2024-09-21,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0
+2024-09-21,AWS Lambda,us-east-1,prod,ZoomMapMax,0.45
+2024-09-21,AWS Systems Manager,us-east-1,untagged,untagged,0.009
+2024-09-21,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,30.2242
+2024-09-21,Amazon Elastic Compute Cloud,us-east-1,dev,NextStreamExpress,0.0056
+2024-09-21,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-21,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-21,Amazon Elastic Compute Cloud,us-east-1,prod,AlphaStoreProX,0.0003
+2024-09-21,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0002
+2024-09-21,Amazon Elastic Compute Cloud,us-east-1,prod,PureSuitePulse,0.0167
+2024-09-21,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-21,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.3965
+2024-09-21,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-21,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0
+2024-09-21,Amazon Simple Storage Service,us-east-1,dev,EvolveGridPlus,0.0016
+2024-09-21,Amazon Virtual Private Cloud,us-east-1,dev,BrightMatrixInsight,0.005
+2024-09-21,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.1233
+2024-09-21,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-22,AWS Key Management Service,us-east-1,untagged,untagged,0.0007
+2024-09-22,AWS Systems Manager,us-east-1,untagged,untagged,0.0001
+2024-09-22,Amazon ElastiCache,us-east-1,dev,ActiveRingEngine,0.156
+2024-09-22,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,26.346
+2024-09-22,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-22,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-22,Amazon Elastic Compute Cloud,us-east-1,prod,ClearPrimeLogic,0.0011
+2024-09-22,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.001
+2024-09-22,Amazon Elastic Compute Cloud,us-east-1,prod,OptiSphereSphere,0.0014
+2024-09-22,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-22,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.4332
+2024-09-22,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-22,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0002
+2024-09-22,Amazon Virtual Private Cloud,us-east-1,dev,BrightMatrixInsight,0.005
+2024-09-22,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.1031
+2024-09-22,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0104
+2024-09-22,AmazonCloudWatch,us-east-1,untagged,untagged,0.2112
+2024-09-22,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-23,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.0001
+2024-09-23,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-23,AWS Systems Manager,us-east-1,untagged,untagged,0.0003
+2024-09-23,Amazon API Gateway,us-east-1,dev,SyncClarityPlus,0.0004
+2024-09-23,Amazon ElastiCache,us-east-1,dev,ActiveRingEngine,0.156
+2024-09-23,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,66.1168
+2024-09-23,Amazon Elastic Compute Cloud,us-east-1,dev,LeadRingGo,0.0003
+2024-09-23,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-23,Amazon Elastic Compute Cloud,us-east-1,dev,UnifiedPortalPort,0.0011
+2024-09-23,Amazon Elastic Compute Cloud,us-east-1,prod,EvolveStoreNow,0.0056
+2024-09-23,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0129
+2024-09-23,Amazon Elastic Compute Cloud,us-east-1,prod,PureSuitePulse,0.0167
+2024-09-23,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,1.3272
+2024-09-23,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.267
+2024-09-23,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-24,AWS Systems Manager,us-east-1,untagged,untagged,0.0005
+2024-09-24,Amazon ElastiCache,us-east-1,dev,ActiveRingEngine,0.156
+2024-09-24,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,143.8874
+2024-09-24,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.045
+2024-09-24,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-24,Amazon Elastic Compute Cloud,us-east-1,dev,UnifiedPortalPort,0.0011
+2024-09-24,Amazon Elastic Compute Cloud,us-east-1,prod,HyperMindEngine,0.0056
+2024-09-24,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-24,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-24,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-24,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,2.6726
+2024-09-24,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-24,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0003
+2024-09-24,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.4271
+2024-09-24,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-25,AWS Key Management Service,us-east-1,prod,InsightBuilderEngine,0.0014
+2024-09-25,AWS Lambda,us-east-1,dev,PureGeniusPilot,0.0003
+2024-09-25,AWS Lambda,us-east-1,prod,ZoomMapMax,0.0006
+2024-09-25,AWS Secrets Manager,us-east-1,untagged,untagged,0.0001
+2024-09-25,AWS Systems Manager,us-east-1,untagged,untagged,0.0181
+2024-09-25,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-25,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,139.4139
+2024-09-25,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-25,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-25,Amazon Elastic Compute Cloud,us-east-1,prod,GenVerseLite,0.0009
+2024-09-25,Amazon Elastic Compute Cloud,us-east-1,prod,HyperMindEngine,0.0056
+2024-09-25,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-25,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-25,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,1.959
+2024-09-25,Amazon Simple Storage Service,us-east-1,dev,EvolveGridPlus,0.0
+2024-09-25,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.4971
+2024-09-25,AmazonCloudWatch,us-east-1,prod,ZoomMapMax,0.0194
+2024-09-25,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-26,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.45
+2024-09-26,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-26,AWS Systems Manager,us-east-1,untagged,untagged,0.0003
+2024-09-26,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-26,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,86.5288
+2024-09-26,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-26,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.045
+2024-09-26,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-26,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.045
+2024-09-26,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,2.2856
+2024-09-26,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-26,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0001
+2024-09-26,Amazon Simple Storage Service,us-east-1,prod,TechScopeCloud,0.0
+2024-09-26,Amazon Virtual Private Cloud,us-east-1,dev,OptiAccessVision,0.005
+2024-09-26,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.4247
+2024-09-26,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,20.508
+2024-09-27,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.45
+2024-09-27,AWS Lambda,us-east-1,untagged,untagged,0.0
+2024-09-27,AWS Secrets Manager,us-east-1,untagged,untagged,0.0
+2024-09-27,AWS Systems Manager,us-east-1,untagged,untagged,0.0005
+2024-09-27,Amazon Elastic Compute Cloud,us-east-1,dev,ActiveOptimizerFlow,0.0111
+2024-09-27,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,123.1619
+2024-09-27,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-27,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-27,Amazon Elastic Compute Cloud,us-east-1,dev,UnifiedPortalPort,0.0011
+2024-09-27,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.045
+2024-09-27,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-27,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-27,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,1.933
+2024-09-27,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-27,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0
+2024-09-27,Amazon Simple Storage Service,us-east-1,prod,TechScopeCloud,0.0
+2024-09-27,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.4075
+2024-09-27,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-28,AWS Key Management Service,us-east-1,prod,InsightBuilderEngine,0.0014
+2024-09-28,AWS Lambda,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-28,AWS Lambda,us-east-1,prod,ZoomMapMax,0.45
+2024-09-28,AWS Systems Manager,us-east-1,untagged,untagged,0.0002
+2024-09-28,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,47.6684
+2024-09-28,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-28,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.7667
+2024-09-28,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-28,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0002
+2024-09-28,Amazon Simple Storage Service,us-east-1,dev,EvolveGridPlus,0.0044
+2024-09-28,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.1275
+2024-09-28,AmazonCloudWatch,us-east-1,dev,SyncClarityPlus,0.0
+2024-09-28,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.0
+2024-09-28,Elastic Load Balancing,us-east-1,prod,SmartBridgeProX,0.0
+2024-09-29,AWS Systems Manager,us-east-1,untagged,untagged,0.0007
+2024-09-29,Amazon ElastiCache,us-east-1,dev,SafeGuideVault,0.156
+2024-09-29,Amazon Elastic Compute Cloud,us-east-1,dev,ActiveOptimizerFlow,0.0056
+2024-09-29,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,57.7012
+2024-09-29,Amazon Elastic Compute Cloud,us-east-1,dev,OptiAccessVision,0.0
+2024-09-29,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-29,Amazon Elastic Compute Cloud,us-east-1,prod,ClearPrimeLogic,0.0011
+2024-09-29,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0001
+2024-09-29,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,0.5969
+2024-09-29,Amazon Simple Queue Service,us-east-1,dev,ActiveRingEngine,0.0
+2024-09-29,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.1672
+2024-09-29,AmazonCloudWatch,us-east-1,prod,ZoomMapMax,0.0192
+2024-09-29,Elastic Load Balancing,us-east-1,prod,SmartBridgeProX,0.0
+2024-09-30,AWS Key Management Service,us-east-1,prod,InsightBuilderEngine,0.0014
+2024-09-30,AWS Lambda,us-east-1,dev,MaxPortalFusion,0.45
+2024-09-30,AWS Systems Manager,us-east-1,untagged,untagged,0.0004
+2024-09-30,Amazon DynamoDB,us-east-1,untagged,untagged,0.0
+2024-09-30,Amazon ElastiCache,us-east-1,dev,ActiveRingEngine,0.156
+2024-09-30,Amazon Elastic Compute Cloud,us-east-1,dev,BrightPathMatrix,105.9782
+2024-09-30,Amazon Elastic Compute Cloud,us-east-1,dev,LeadRingGo,0.0003
+2024-09-30,Amazon Elastic Compute Cloud,us-east-1,dev,SecureSystemFlex,0.0
+2024-09-30,Amazon Elastic Compute Cloud,us-east-1,prod,EvolveStoreNow,0.0056
+2024-09-30,Amazon Elastic Compute Cloud,us-east-1,prod,NovaCloudConnect,0.0
+2024-09-30,Amazon Elastic Compute Cloud,us-east-1,prod,PureAssetCloud,0.0
+2024-09-30,Amazon Elastic Compute Cloud,us-east-1,prod,SafeSystemEngine,0.0
+2024-09-30,Amazon Elastic Compute Cloud,us-east-1,prod,ZoomMapMax,1.1129
+2024-09-30,Amazon Simple Queue Service,us-east-1,prod,AllNavigatorTech,0.0003
+2024-09-30,Amazon Virtual Private Cloud,us-east-1,prod,PureAssetCloud,0.01
+2024-09-30,Amazon Virtual Private Cloud,us-east-1,untagged,untagged,0.4665
+2024-09-30,AmazonCloudWatch,us-east-1,dev,PureGeniusPilot,0.0
+2024-09-30,Elastic Load Balancing,us-east-1,dev,InsightVaultVault,0.025
+2024-09-30,Elastic Load Balancing,us-east-1,prod,SmartBridgeProX,0.0

@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+boto3
+moto[server]
+cryptography
+httpx
+pytest

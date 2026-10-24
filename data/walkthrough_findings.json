@@ -1,0 +1,25 @@
+{
+ "source": "FOCUS 1.0 sample (FinOps Foundation), AWS account 11353890204, Usage rows only, BilledCost USD",
+ "method": "trailing 7-day median + MAD, |z|>3.5",
+ "total_usage_usd": 1430.99,
+ "flags": [
+  {
+   "day": "2024-09-09",
+   "cost": 13.77,
+   "trailing7_median": 1.24,
+   "robust_z": 7.2
+  },
+  {
+   "day": "2024-09-12",
+   "cost": 51.6,
+   "trailing7_median": 6.58,
+   "robust_z": 5.2
+  },
+  {
+   "day": "2024-09-18",
+   "cost": 84.94,
+   "trailing7_median": 46.0,
+   "robust_z": 4.7
+  }
+ ]
+}
