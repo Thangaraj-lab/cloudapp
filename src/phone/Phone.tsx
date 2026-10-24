@@ -316,12 +316,19 @@ export function PhoneCase() {
     // Backend up: approve on the laptop's API (its pending request, or a new one), so the
     // laptop ledger and audit chain record it and the laptop moves on live.
     const b = useBackend.getState()
-    if (b.status === 'up' && s.kind === 'case') {
+    // Injected demo cases are browser-only, so they must use the phone's local
+    // approval/run path even when the laptop API is online.
+    if (b.status === 'up' && s.kind === 'case' && !s.injected) {
       try {
         const pending = b.pending.find((p) => p.findingId === s.id)
         const body = pending?.body ?? (await api<{ body?: string; policy: { reasons: string[] } }>('/approvals/request', { json: { findingId: s.id, device: 'phone' } })).body
         if (!body) throw new Error('Blocked by policy')
         const r = await api<{ actionId?: string; queued?: boolean }>('/approvals/consume', { json: { findingId: s.id, token: sign(key, body) } })
+        const payload = decode(body + '.x')
+        if (!payload) throw new Error('The laptop returned an unreadable approval request.')
+        // Keep a local ledger entry too, so this phone can show Run and Result
+        // immediately instead of waiting for the laptop to mirror its ledger.
+        startAction(s, 'Phone approver', payload.nonce)
         st.log('approval issued', { subject: s.id, by: 'phone (hold)', remote: r.actionId ?? 'queued' })
         toast(r.queued ? 'Approved and saved on this phone. It is sent when the laptop is reachable.' : `Approved. Sent to the laptop (${r.actionId}).`)
         go(3)
