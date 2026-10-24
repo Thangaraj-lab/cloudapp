@@ -132,6 +132,11 @@ LOOPBACK = {"127.0.0.1", "::1", "::ffff:127.0.0.1", "localhost", "testclient"}
 def laptop_only(request: Request) -> None:
     """Key and reset endpoints answer only the laptop itself. The Vite proxy forwards the
     phone's address in X-Forwarded-For, so a phone going through the proxy is refused too."""
+    # A laptop opened through its LAN/tether address also arrives at the API with
+    # the proxy's forwarded client address. The browser marks pairing reads and
+    # rotations explicitly; phone pages never send this header.
+    if request.headers.get("x-spendsentinel-laptop") == "1":
+        return
     host = request.client.host if request.client else ""
     fwd = [h.strip() for h in request.headers.get("x-forwarded-for", "").split(",") if h.strip()]
     if host not in LOOPBACK or any(h not in LOOPBACK for h in fwd):

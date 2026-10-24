@@ -35,10 +35,11 @@ interface BackendState {
 export const useBackend = create<BackendState>(() => ({ status: 'checking', health: null, exec: [], ledgerTick: 0, lastLedger: null, pending: [], remoteActions: {} }))
 
 export async function api<T = unknown>(path: string, init?: RequestInit & { json?: unknown }): Promise<T> {
+  const laptopPairingRequest = path === '/pairing' && typeof window !== 'undefined' && !location.hash.startsWith('#/m')
   const res = await fetch('/api' + path, {
     ...init,
     method: init?.method ?? (init?.json !== undefined ? 'POST' : 'GET'),
-    headers: { 'Content-Type': 'application/json', ...(init?.headers ?? {}) },
+    headers: { 'Content-Type': 'application/json', ...(laptopPairingRequest ? { 'X-SpendSentinel-Laptop': '1' } : {}), ...(init?.headers ?? {}) },
     body: init?.json !== undefined ? JSON.stringify(init.json) : init?.body,
   })
   const text = await res.text()
